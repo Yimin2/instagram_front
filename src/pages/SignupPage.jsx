@@ -40,7 +40,7 @@ const SignupPage = () => {
     <div className="auth-container">
       <div className="auth-box">
         <h1 className="auth-logo">Instagram</h1>
-        <p className="auth-subtitle">친구들의 사진과 동영상을 보려면 가입하세요.</p>
+        <p className="auth-subtitle">친구들의 사진을 보려면 가입하세요.</p>
 
         <form onSubmit={handleSubmit} className="auth-form">
           <input
