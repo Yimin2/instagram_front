@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+export const API_URL = process.env.REACT_APP_API_URL ?? 'http://localhost:8080';
 
 // 이미지 URL에 API 서버 주소 추가
 export const getImageUrl = (path) => {
